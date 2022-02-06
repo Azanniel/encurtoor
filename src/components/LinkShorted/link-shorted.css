@@ -1,0 +1,49 @@
+main.container-modal {
+  position: absolute;
+  bottom: 18px;
+
+  background: #fff;
+  border-radius: 4px;
+  padding: 14px;
+
+  width: 85%;
+  max-width: 720px;
+
+  display: flex;
+  flex-direction: column;
+
+  animation: slideY 0.7s;
+}
+
+section.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #333;
+}
+
+section.modal-header button {
+  border: 0;
+  background: transparent;
+}
+
+main.container-modal span {
+  margin: 10px 0px;
+  color: #a7a7a7;
+  font-size: 16px;
+}
+
+button.modal-link {
+  height: 42px;
+  background: #282a36;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 14px;
+  border: 0px;
+  border-radius: 4px;
+
+  font-size: 18px;
+}
