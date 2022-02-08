@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const key = ''
+export const key = import.meta.env.VITE_BITLY_KEY;
 
 const api = axios.create({
   baseURL: 'https://api-ssl.bitly.com/v4',

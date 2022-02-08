@@ -31,6 +31,8 @@ main.container-modal span {
   margin: 10px 0px;
   color: #a7a7a7;
   font-size: 16px;
+
+  word-wrap: break-word;
 }
 
 button.modal-link {
