@@ -15,6 +15,17 @@ section.links-header svg {
   margin-right: 14px;
 }
 
+section.empty-content {
+  width: 100%;
+  text-align: center;
+  margin: 12px auto;
+}
+
+section.empty-content h2 {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
 section.link-item {
   width: 100%;
   max-width: 900px;

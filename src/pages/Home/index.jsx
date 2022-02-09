@@ -6,6 +6,7 @@ import Menu from '../../components/Menu'
 import LinkShorted from '../../components/LinkShorted'
 
 import api from '../../services/api'
+import {saveLink} from '../../storage/links'
 
 function Home() {
   const [link, setLink] = useState('')
@@ -23,6 +24,8 @@ function Home() {
 
       setData(response.data)
       setShowModal(true)
+
+      saveLink("@encurtoorApp", response.data)
 
       setLink('')
     } catch (error) {
