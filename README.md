@@ -3,7 +3,7 @@
     <img width="120px" src="./src/assets/logo.png" alt="Encurtoor" />
   </div>
 
-  <h2>Encurtoor</h2>
+  <h3>Encurtoor</h3>
 
   <br>
 
