@@ -4,6 +4,7 @@ import {FiLink} from 'react-icons/fi'
 
 import Menu from '../../components/Menu'
 import LinkShorted from '../../components/LinkShorted'
+import logo from '../../assets/logo.png'
 
 import api from '../../services/api'
 import {saveLink} from '../../storage/links'
@@ -38,7 +39,7 @@ function Home() {
     <main className="container-home">
 
       <section className="logo">
-        <img src="src/assets/logo.png" alt="Logo" />
+        <img src={logo} alt="Logo" />
         <h1>Encurtoor</h1>
         <span>Cole seu link para encurtar 👇</span>
       </section>
