@@ -1,6 +1,6 @@
 main.container-links {
-  width: 85%;
-  max-width: 1120px;
+  width: 720px;
+  max-width: 1420px;
 
   margin: 32px auto 0 auto;
 }
@@ -68,4 +68,11 @@ section.link-item .link-delete {
   border: 0;
   background: transparent;
   outline: none;
+}
+
+@media (max-width: 880px) {
+  main.container-links {
+    width: 85%;
+    max-width: 700px;
+  }
 }
